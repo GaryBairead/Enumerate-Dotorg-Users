@@ -6,9 +6,15 @@ WordPress creates a unique ID for each author sequentially.
 
 This script enumerates through the "ugly" permalink version of author archives to find usernames for ID's 1-100.
 
-For example, the first author on a site usually has an ID of 1. The author archive for that user will exist at https://domain.com/?author=1
+The first author on a site usually has an ID of 1. The author archive for that user will exist at https://domain.com/?author=1
 
-Once we have an author archive URL, we can then find the username.
+Once we have an author archive URL, we can then find the username from the Location header.
+
+For example, if the script is run on WPTavern.com, it'll find a user with an ID of 2 at https://wptavern.com/?author=2
+
+That URL then redirects to https://wptavern.com/author/jeffr0
+
+Based on that author archive URL, we now know that jeffr0 is one the usernames/login names.
 
 ## How to use the script ##
 
