@@ -14,8 +14,10 @@ Once we have an author archive URL, we can find the username.
 
 Change the site URL from https://domain.com to your own domain.
 
-Copy & paste the script into a terminal.
+Copy & paste the [bash one liner](https://github.com/GaryBairead/Enumerate-Dotorg-Users/blob/master/enumerate) into a terminal, then hit Enter.
 
 ## Limitations ##
 
 Not really suitable for multisite networks or WordPress.com
+
+Some security plugins prevent usernames from being enumerated.
