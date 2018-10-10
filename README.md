@@ -1,4 +1,4 @@
-# Enumerate-Dotorg-Users
+# Enumerate-WordPress-Usernames
 
 A bash script to find usernames for self-hosted WordPress sites.
 
